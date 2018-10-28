@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		678C73B522D32F0564AA8E3E /* Pods_Cloud_Folio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0755FD7E007A710BD0DD8F47 /* Pods_Cloud_Folio.framework */; };
+		83095D4E20A4EAFF0027EE41 /* Icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 83095D4D20A4EAFF0027EE41 /* Icon-128.png */; };
+		83196D95208AC6340097BB78 /* book3.png in Resources */ = {isa = PBXBuildFile; fileRef = 83196D94208AC6330097BB78 /* book3.png */; };
+		8324DD3F207599B20096DD6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324DD3E207599B20096DD6A /* AppDelegate.swift */; };
+		8324DD41207599B20096DD6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8324DD40207599B20096DD6A /* ViewController.swift */; };
+		8324DD44207599B20096DD6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8324DD42207599B20096DD6A /* Main.storyboard */; };
+		8324DD46207599B30096DD6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8324DD45207599B30096DD6A /* Assets.xcassets */; };
+		8324DD49207599B30096DD6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8324DD47207599B30096DD6A /* LaunchScreen.storyboard */; };
+		8324DD51207599D40096DD6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8324DD50207599D40096DD6A /* GoogleService-Info.plist */; };
+		834D4C232096A270001269B8 /* AdminAddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4C222096A270001269B8 /* AdminAddBookViewController.swift */; };
+		834D4C252096B096001269B8 /* ViewUsersAdminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D4C242096B096001269B8 /* ViewUsersAdminTableViewController.swift */; };
+		8359D6A3208A958F00AD3266 /* BookDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8359D6A2208A958F00AD3266 /* BookDetailsViewController.swift */; };
+		8359D6A7208AB03C00AD3266 /* bookmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 8359D6A6208AB03C00AD3266 /* bookmark.png */; };
+		835BC5CF208B63CA0055BFBE /* DateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835BC5CE208B63CA0055BFBE /* DateManager.swift */; };
+		835BC5D3208B6FA00055BFBE /* CheckoutsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835BC5D2208B6FA00055BFBE /* CheckoutsTableViewController.swift */; };
+		835BC5D5208B77660055BFBE /* CheckoutBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835BC5D4208B77660055BFBE /* CheckoutBook.swift */; };
+		837B37C420A247CF00FA5C9D /* AdminFeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B37C320A247CF00FA5C9D /* AdminFeedbackViewController.swift */; };
+		837B37C620A2745200FA5C9D /* AdminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B37C520A2745200FA5C9D /* AdminHomeViewController.swift */; };
+		837E6D8F209E117000EB10ED /* UserInAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837E6D8E209E117000EB10ED /* UserInAdminViewController.swift */; };
+		838942752091372200442A3B /* ProductSansFont in Resources */ = {isa = PBXBuildFile; fileRef = 838942742091372200442A3B /* ProductSansFont */; };
+		8389427720914BC100442A3B /* HoldsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8389427620914BC100442A3B /* HoldsTableViewController.swift */; };
+		8398BCC8209541E40002DD18 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398BCC7209541E40002DD18 /* MapViewController.swift */; };
+		8398BCCA20954FC60002DD18 /* DuesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398BCC920954FC60002DD18 /* DuesViewController.swift */; };
+		8398BCCC2095514D0002DD18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8398BCCB2095514D0002DD18 /* HomeViewController.swift */; };
+		83A2A983208BAD9B001F05EC /* BookmarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A2A982208BAD9B001F05EC /* BookmarkTableViewController.swift */; };
+		83AF448B2077D9FE0009E0FB /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF448A2077D9FE0009E0FB /* AppUser.swift */; };
+		83AF448D2077FF4F0009E0FB /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF448C2077FF4F0009E0FB /* EditProfileViewController.swift */; };
+		83AF448F20780E400009E0FB /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AF448E20780E400009E0FB /* FeedbackViewController.swift */; };
+		83BC9A2C2078639F008642DA /* book.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC9A2B2078639F008642DA /* book.png */; };
+		83CF53282076B58800DA0C6C /* cloud_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CF53272076B58700DA0C6C /* cloud_icon.png */; };
+		83CF532A2076C30400DA0C6C /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CF53292076C30400DA0C6C /* CreateAccountViewController.swift */; };
+		83D84D9F20840DB100FEBE42 /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D84D9E20840DB100FEBE42 /* BooksTableViewController.swift */; };
+		83D84DA12084171500FEBE42 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D84DA02084171500FEBE42 /* Book.swift */; };
+		83E5132920FE8178009B1C9C /* outline_view_list_black_48dp.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E5132820FE8178009B1C9C /* outline_view_list_black_48dp.png */; };
+		83E733622077BC14005C5A25 /* ios_profile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E733612077BC14005C5A25 /* ios_profile_icon.png */; };
+		83E733682077C1F5005C5A25 /* ic_profile_ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 83E733672077C1F5005C5A25 /* ic_profile_ios.png */; };
+		83E7336A2077C418005C5A25 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E733692077C418005C5A25 /* ProfileViewController.swift */; };
+		83FB44C220A1325600AB712E /* ios_home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83FB44C120A1325600AB712E /* ios_home_icon.png */; };
+		83FB44C420A132D900AB712E /* ios_book_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83FB44C320A132D900AB712E /* ios_book_icon.png */; };
+		83FB44C620A1333100AB712E /* ios_map_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 83FB44C520A1333000AB712E /* ios_map_icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		83663C5F209F39F900496DD1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0755FD7E007A710BD0DD8F47 /* Pods_Cloud_Folio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloud_Folio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5692EDAA167AC31C698D0FF0 /* Pods-Cloud Folio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud Folio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cloud Folio/Pods-Cloud Folio.debug.xcconfig"; sourceTree = "<group>"; };
+		83095D4D20A4EAFF0027EE41 /* Icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-128.png"; sourceTree = "<group>"; };
+		83196D94208AC6330097BB78 /* book3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book3.png; sourceTree = "<group>"; };
+		8324DD3B207599B20096DD6A /* Cloud Folio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cloud Folio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8324DD3E207599B20096DD6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8324DD40207599B20096DD6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8324DD43207599B20096DD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8324DD45207599B30096DD6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8324DD48207599B30096DD6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8324DD4A207599B30096DD6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8324DD50207599D40096DD6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		834D4C222096A270001269B8 /* AdminAddBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminAddBookViewController.swift; sourceTree = "<group>"; };
+		834D4C242096B096001269B8 /* ViewUsersAdminTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewUsersAdminTableViewController.swift; sourceTree = "<group>"; };
+		8359D6A2208A958F00AD3266 /* BookDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailsViewController.swift; sourceTree = "<group>"; };
+		8359D6A6208AB03C00AD3266 /* bookmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookmark.png; sourceTree = "<group>"; };
+		835BC5CE208B63CA0055BFBE /* DateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateManager.swift; sourceTree = "<group>"; };
+		835BC5D2208B6FA00055BFBE /* CheckoutsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutsTableViewController.swift; sourceTree = "<group>"; };
+		835BC5D4208B77660055BFBE /* CheckoutBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutBook.swift; sourceTree = "<group>"; };
+		83663C62209F3D7F00496DD1 /* Share.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Share.entitlements; sourceTree = "<group>"; };
+		83663C63209F3E8700496DD1 /* Cloud Folio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cloud Folio.entitlements"; sourceTree = "<group>"; };
+		837B37C320A247CF00FA5C9D /* AdminFeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminFeedbackViewController.swift; sourceTree = "<group>"; };
+		837B37C520A2745200FA5C9D /* AdminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminHomeViewController.swift; sourceTree = "<group>"; };
+		837E6D8E209E117000EB10ED /* UserInAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInAdminViewController.swift; sourceTree = "<group>"; };
+		838942742091372200442A3B /* ProductSansFont */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ProductSansFont; sourceTree = "<group>"; };
+		8389427620914BC100442A3B /* HoldsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldsTableViewController.swift; sourceTree = "<group>"; };
+		8398BCC7209541E40002DD18 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		8398BCC920954FC60002DD18 /* DuesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuesViewController.swift; sourceTree = "<group>"; };
+		8398BCCB2095514D0002DD18 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		83A2A982208BAD9B001F05EC /* BookmarkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewController.swift; sourceTree = "<group>"; };
+		83AF448A2077D9FE0009E0FB /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		83AF448C2077FF4F0009E0FB /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		83AF448E20780E400009E0FB /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		83BC9A2B2078639F008642DA /* book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book.png; sourceTree = "<group>"; };
+		83CF53272076B58700DA0C6C /* cloud_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud_icon.png; sourceTree = "<group>"; };
+		83CF53292076C30400DA0C6C /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		83D84D9E20840DB100FEBE42 /* BooksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
+		83D84DA02084171500FEBE42 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		83E5132820FE8178009B1C9C /* outline_view_list_black_48dp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = outline_view_list_black_48dp.png; path = "../../../../../Downloads/outline-view_list-black-48/1x/outline_view_list_black_48dp.png"; sourceTree = "<group>"; };
+		83E733612077BC14005C5A25 /* ios_profile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_profile_icon.png; sourceTree = "<group>"; };
+		83E733672077C1F5005C5A25 /* ic_profile_ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_profile_ios.png; sourceTree = "<group>"; };
+		83E733692077C418005C5A25 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		83FB44C120A1325600AB712E /* ios_home_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_home_icon.png; sourceTree = "<group>"; };
+		83FB44C320A132D900AB712E /* ios_book_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_book_icon.png; sourceTree = "<group>"; };
+		83FB44C520A1333000AB712E /* ios_map_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios_map_icon.png; sourceTree = "<group>"; };
+		D41AB788CA684935FF067DD4 /* Pods-Cloud Folio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloud Folio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cloud Folio/Pods-Cloud Folio.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8324DD38207599B20096DD6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678C73B522D32F0564AA8E3E /* Pods_Cloud_Folio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8324DD32207599B20096DD6A = {
+			isa = PBXGroup;
+			children = (
+				8324DD3D207599B20096DD6A /* Cloud Folio */,
+				8324DD3C207599B20096DD6A /* Products */,
+				C8CDD699EEEB4AA486A10BF2 /* Pods */,
+				B831DC6F92E34DA687C94FAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8324DD3C207599B20096DD6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8324DD3B207599B20096DD6A /* Cloud Folio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8324DD3D207599B20096DD6A /* Cloud Folio */ = {
+			isa = PBXGroup;
+			children = (
+				83D84D9E20840DB100FEBE42 /* BooksTableViewController.swift */,
+				8324DD3E207599B20096DD6A /* AppDelegate.swift */,
+				83CF53272076B58700DA0C6C /* cloud_icon.png */,
+				8324DD40207599B20096DD6A /* ViewController.swift */,
+				83E733692077C418005C5A25 /* ProfileViewController.swift */,
+				8359D6A6208AB03C00AD3266 /* bookmark.png */,
+				8324DD42207599B20096DD6A /* Main.storyboard */,
+				837B37C520A2745200FA5C9D /* AdminHomeViewController.swift */,
+				837B37C320A247CF00FA5C9D /* AdminFeedbackViewController.swift */,
+				834D4C242096B096001269B8 /* ViewUsersAdminTableViewController.swift */,
+				837E6D8E209E117000EB10ED /* UserInAdminViewController.swift */,
+				834D4C222096A270001269B8 /* AdminAddBookViewController.swift */,
+				8398BCCB2095514D0002DD18 /* HomeViewController.swift */,
+				8398BCC920954FC60002DD18 /* DuesViewController.swift */,
+				8398BCC7209541E40002DD18 /* MapViewController.swift */,
+				8389427620914BC100442A3B /* HoldsTableViewController.swift */,
+				83A2A982208BAD9B001F05EC /* BookmarkTableViewController.swift */,
+				835BC5D2208B6FA00055BFBE /* CheckoutsTableViewController.swift */,
+				835BC5CE208B63CA0055BFBE /* DateManager.swift */,
+				83196D94208AC6330097BB78 /* book3.png */,
+				83D84DA02084171500FEBE42 /* Book.swift */,
+				83BC9A2B2078639F008642DA /* book.png */,
+				83FB44C520A1333000AB712E /* ios_map_icon.png */,
+				83FB44C320A132D900AB712E /* ios_book_icon.png */,
+				83AF448C2077FF4F0009E0FB /* EditProfileViewController.swift */,
+				83AF448E20780E400009E0FB /* FeedbackViewController.swift */,
+				83AF448A2077D9FE0009E0FB /* AppUser.swift */,
+				83663C63209F3E8700496DD1 /* Cloud Folio.entitlements */,
+				83E733672077C1F5005C5A25 /* ic_profile_ios.png */,
+				83FB44C120A1325600AB712E /* ios_home_icon.png */,
+				83CF53292076C30400DA0C6C /* CreateAccountViewController.swift */,
+				83095D4D20A4EAFF0027EE41 /* Icon-128.png */,
+				83E5132820FE8178009B1C9C /* outline_view_list_black_48dp.png */,
+				8324DD45207599B30096DD6A /* Assets.xcassets */,
+				838942742091372200442A3B /* ProductSansFont */,
+				83E733612077BC14005C5A25 /* ios_profile_icon.png */,
+				83663C62209F3D7F00496DD1 /* Share.entitlements */,
+				8324DD47207599B30096DD6A /* LaunchScreen.storyboard */,
+				8324DD4A207599B30096DD6A /* Info.plist */,
+				8324DD50207599D40096DD6A /* GoogleService-Info.plist */,
+				8359D6A2208A958F00AD3266 /* BookDetailsViewController.swift */,
+				835BC5D4208B77660055BFBE /* CheckoutBook.swift */,
+			);
+			path = "Cloud Folio";
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		B831DC6F92E34DA687C94FAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0755FD7E007A710BD0DD8F47 /* Pods_Cloud_Folio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8CDD699EEEB4AA486A10BF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5692EDAA167AC31C698D0FF0 /* Pods-Cloud Folio.debug.xcconfig */,
+				D41AB788CA684935FF067DD4 /* Pods-Cloud Folio.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8324DD3A207599B20096DD6A /* Cloud Folio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8324DD4D207599B30096DD6A /* Build configuration list for PBXNativeTarget "Cloud Folio" */;
+			buildPhases = (
+				ECE5FBA916EC009F437302FD /* [CP] Check Pods Manifest.lock */,
+				8324DD37207599B20096DD6A /* Sources */,
+				8324DD38207599B20096DD6A /* Frameworks */,
+				8324DD39207599B20096DD6A /* Resources */,
+				72404CA9EFF91C7E372EC79C /* [CP] Embed Pods Frameworks */,
+				83663C5F209F39F900496DD1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cloud Folio";
+			productName = "Cloud Folio";
+			productReference = 8324DD3B207599B20096DD6A /* Cloud Folio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8324DD33207599B20096DD6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Akash Veerappan";
+				TargetAttributes = {
+					8324DD3A207599B20096DD6A = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8324DD36207599B20096DD6A /* Build configuration list for PBXProject "Cloud Folio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8324DD32207599B20096DD6A;
+			productRefGroup = 8324DD3C207599B20096DD6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8324DD3A207599B20096DD6A /* Cloud Folio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8324DD39207599B20096DD6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8324DD49207599B30096DD6A /* LaunchScreen.storyboard in Resources */,
+				8324DD51207599D40096DD6A /* GoogleService-Info.plist in Resources */,
+				8324DD46207599B30096DD6A /* Assets.xcassets in Resources */,
+				83FB44C220A1325600AB712E /* ios_home_icon.png in Resources */,
+				8359D6A7208AB03C00AD3266 /* bookmark.png in Resources */,
+				83E733682077C1F5005C5A25 /* ic_profile_ios.png in Resources */,
+				83E5132920FE8178009B1C9C /* outline_view_list_black_48dp.png in Resources */,
+				838942752091372200442A3B /* ProductSansFont in Resources */,
+				83CF53282076B58800DA0C6C /* cloud_icon.png in Resources */,
+				83196D95208AC6340097BB78 /* book3.png in Resources */,
+				83BC9A2C2078639F008642DA /* book.png in Resources */,
+				83E733622077BC14005C5A25 /* ios_profile_icon.png in Resources */,
+				83FB44C420A132D900AB712E /* ios_book_icon.png in Resources */,
+				8324DD44207599B20096DD6A /* Main.storyboard in Resources */,
+				83095D4E20A4EAFF0027EE41 /* Icon-128.png in Resources */,
+				83FB44C620A1333100AB712E /* ios_map_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72404CA9EFF91C7E372EC79C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Cloud Folio/Pods-Cloud Folio-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cloud Folio/Pods-Cloud Folio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECE5FBA916EC009F437302FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cloud Folio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8324DD37207599B20096DD6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83CF532A2076C30400DA0C6C /* CreateAccountViewController.swift in Sources */,
+				837E6D8F209E117000EB10ED /* UserInAdminViewController.swift in Sources */,
+				835BC5D3208B6FA00055BFBE /* CheckoutsTableViewController.swift in Sources */,
+				8398BCCA20954FC60002DD18 /* DuesViewController.swift in Sources */,
+				834D4C252096B096001269B8 /* ViewUsersAdminTableViewController.swift in Sources */,
+				835BC5D5208B77660055BFBE /* CheckoutBook.swift in Sources */,
+				83A2A983208BAD9B001F05EC /* BookmarkTableViewController.swift in Sources */,
+				8398BCCC2095514D0002DD18 /* HomeViewController.swift in Sources */,
+				83AF448B2077D9FE0009E0FB /* AppUser.swift in Sources */,
+				8359D6A3208A958F00AD3266 /* BookDetailsViewController.swift in Sources */,
+				837B37C620A2745200FA5C9D /* AdminHomeViewController.swift in Sources */,
+				83AF448D2077FF4F0009E0FB /* EditProfileViewController.swift in Sources */,
+				837B37C420A247CF00FA5C9D /* AdminFeedbackViewController.swift in Sources */,
+				834D4C232096A270001269B8 /* AdminAddBookViewController.swift in Sources */,
+				83AF448F20780E400009E0FB /* FeedbackViewController.swift in Sources */,
+				8389427720914BC100442A3B /* HoldsTableViewController.swift in Sources */,
+				8324DD41207599B20096DD6A /* ViewController.swift in Sources */,
+				83D84DA12084171500FEBE42 /* Book.swift in Sources */,
+				835BC5CF208B63CA0055BFBE /* DateManager.swift in Sources */,
+				83E7336A2077C418005C5A25 /* ProfileViewController.swift in Sources */,
+				83D84D9F20840DB100FEBE42 /* BooksTableViewController.swift in Sources */,
+				8324DD3F207599B20096DD6A /* AppDelegate.swift in Sources */,
+				8398BCC8209541E40002DD18 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8324DD42207599B20096DD6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8324DD43207599B20096DD6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8324DD47207599B30096DD6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8324DD48207599B30096DD6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8324DD4B207599B30096DD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8324DD4C207599B30096DD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8324DD4E207599B30096DD6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5692EDAA167AC31C698D0FF0 /* Pods-Cloud Folio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Cloud Folio/Cloud Folio.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MCZGR5VC28;
+				INFOPLIST_FILE = "Cloud Folio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.squashApps.Cloud-Folio01222002";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8324DD4F207599B30096DD6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D41AB788CA684935FF067DD4 /* Pods-Cloud Folio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Cloud Folio/Cloud Folio.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MCZGR5VC28;
+				INFOPLIST_FILE = "Cloud Folio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.squashApps.Cloud-Folio01222002";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8324DD36207599B20096DD6A /* Build configuration list for PBXProject "Cloud Folio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8324DD4B207599B30096DD6A /* Debug */,
+				8324DD4C207599B30096DD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8324DD4D207599B30096DD6A /* Build configuration list for PBXNativeTarget "Cloud Folio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8324DD4E207599B30096DD6A /* Debug */,
+				8324DD4F207599B30096DD6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8324DD33207599B20096DD6A /* Project object */;
+}

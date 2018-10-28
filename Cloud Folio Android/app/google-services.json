@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "745400675215",
+    "firebase_url": "https://cloudfolio-a3346.firebaseio.com",
+    "project_id": "cloudfolio-a3346",
+    "storage_bucket": "cloudfolio-a3346.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745400675215:android:d9eb4c49d5fae332",
+        "android_client_info": {
+          "package_name": "com.example.akash.fbla_library"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745400675215-93m9vfd711sumojo6c4hd5el063b4u6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOuwD-TNtMBuhYMWJb-uJIf7QgvJpBtC8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
