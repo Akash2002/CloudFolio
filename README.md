@@ -1,6 +1,14 @@
 # NLC_FBLA_2018
 
-iOS Instructions
+### About
+-----------
+Libraries are often clumsy with the multitudinous amount of books that they have. Therefore, to simplify the entire process of checking out, holding, and managing
+dues, I built an application for iOS and Android called CloudFolio. I recieved 1st place in the state FBLA conference. 
+
+### Instructions
+-----------------
+###### iOS Instructions
+---------------
 
 Welcome to CloudFolio - Your Library on the cloud. This document will detail the instructions to run both versions of the app, iOS and Android, and will walkthrough the major features of the app. 
 
@@ -13,9 +21,8 @@ Instructions for running the CloudFolio Application (iOS)
 6. After Xcode finishes loading all the necessary components of the app, choose an iPhone 8 or an iPhone 7 on the small box specifying the emulator on the top of the application beside the play/run and stop buttons. 
 7. Then, hit run, and the app should work!
 
-Instructions for running the CloudFolio Application (Android)
-
-App Walkthrough:
+###### App Walkthrough:
+------------
 
 Login Page: The Login Page is the first page that you will land on upon opening the app. If you already have an account, you can just type in your credentials and sign in, or else, there is a button to let you create an account.
 
@@ -56,15 +63,15 @@ Nuances of the app: (iOS)
 6. The pickup feature with the hold queue can be tested by holding a book from Account A today, and the same book from Account B tomorrow. This means that the user who had held the book the earliest gets the first priority. Note however that this feature does not incorporate time functionality, therefore only working with date differences. 
 
 
-Differences between Android and iOS
+###### Differences between Android and iOS
+--------------
 1. Share functionality works better on the Android version of the app.
 2. Pickup functionality works better on the iOS version of the app. 
 3. Auto-sign in is enabled on the Android version of the app (this feature checks for the user last signed in to the app and signs them back in automatically)
 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Android Instructions
+###### Android Instructions
+------------
 
 A. Instructions for Installing Android Studio on macOS 10.13.3 (High Sierra) *macOS PREFERRED WHEN DEMOING*
 1. Go to https://developer.android.com/studio/index.html using your preferred web browser.
