@@ -3,7 +3,7 @@
 ### About
 -----------
 Libraries are often clumsy with the multitudinous amount of books that they have. Therefore, to simplify the entire process of checking out, holding, and managing
-dues, I built an application for iOS and Android called CloudFolio. I recieved 1st place in the state FBLA conference. 
+dues, I built an application for iOS and Android called CloudFolio. I received 1st place in the state FBLA conference. 
 
 ### Instructions
 -----------------
